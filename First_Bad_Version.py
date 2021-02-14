@@ -1,6 +1,13 @@
+#isBadVersion () API function predifined that returns whether an entered product no. is defect one or not(True or False)
+#We are to find the first bad version in the list
+
+
+
 class Solution:
     
     def firstBadVersion(self, n):
+        
+        #used binary search algorithm
         left=1
         right=n
         
